@@ -54,7 +54,13 @@
 
 @media all and (min-width:769px)
 {
-    #small{display:none;}
-    #medium{display:none;}
-    #large{display:block;}
+    #small
+    {display:none;
+    float:none;}
+    #medium
+    {display:none;
+    float:center;}
+    #large
+    {display:block;
+    float:right;}
 }
