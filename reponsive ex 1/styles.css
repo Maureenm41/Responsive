@@ -22,9 +22,15 @@
 
 @media all and (max-width:300px)
 {
-    #small{display:block;}
-    #medium{display:none;}
-    #large{display:none;}
+    #small
+    {display:block;
+    position: absolute;}
+    #medium
+    {display:none;
+    position: absolute;}
+    #large{
+        display:none;
+        position: absolute;}
 }
 
 @media all and (max-width:768)
