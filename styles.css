@@ -1,9 +1,33 @@
-@media screen and (min-width: 0px) and (max-width: 300px) {
+@media screen and (min-width: 0px) and (max-width: 300px) 
+{
     body { background-color: red; }
 }
-@media screen and (min-width: 301px) and (max-width: 768px) {
+@media screen and (min-width: 301px) and (max-width: 768px) 
+{
     body { background-color: green; }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) 
+{
     body { background-color: blue; }
+}
+
+@media all and (max-width:300px)
+{
+    #small{display:block;}
+    #medium{display:none;}
+    #large{display:none;}
+}
+
+@media all and (max-width:768)
+{
+    #small{display:none;}
+    #medium{display:block;}
+    #large{display:none;}
+}
+
+@media all and (min-width:769px)
+{
+    #small{display:none;}
+    #medium{display:none;}
+    #large{display:black;}
 }
