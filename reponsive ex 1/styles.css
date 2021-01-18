@@ -35,9 +35,21 @@
 
 @media all and (max-width:768)
 {
-    #small{display:none;}
-    #medium{display:block;}
-    #large{display:none;}
+    #small
+    {
+        display:none;
+        width: 66,66%;
+    }
+    #medium
+    {
+        display:block;
+        width:33,33%;
+    }
+    #large
+    {
+        display:none;
+        width:100%;
+    }
 }
 
 @media all and (min-width:769px)
