@@ -29,5 +29,5 @@
 {
     #small{display:none;}
     #medium{display:none;}
-    #large{display:black;}
+    #large{display:block;}
 }
