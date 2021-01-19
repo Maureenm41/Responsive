@@ -125,17 +125,17 @@ nav a:hover
     nav ul
 {
     list-style-type: none;
-    display: flex;
+    display: inline-block;
 }
 
 nav li
 {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 nav a
 {
-    font-size: 1.3em;
+    font-size: 0.8em;
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
@@ -154,7 +154,7 @@ nav a:hover
     nav ul
 {
     list-style-type: none;
-    display: block;
+    display: inline-block;
 }
 
 nav li
